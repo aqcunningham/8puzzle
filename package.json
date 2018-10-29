@@ -1,0 +1,29 @@
+{
+  "name": "8puzzle",
+  "version": "0.0.1",
+  "description": "A* search-based 8-puzzle game",
+  "main": "solver.js",
+  "scripts": {
+    "babel": "./node_modules/.bin/babel ./src -d ./build",
+    "clean": "rm -rf ./build",
+    "lint": "./node_modules/.bin/eslint ./src",
+    "prestart": "npm run babel",
+    "start": "node ./build/index.js ../puzzles/testPuzzle.txt",
+    "poststart": "npm run clean",
+    "pretest": "npm run babel",
+    "test": "./node_modules/.bin/mocha ./build/**/*.test.js -G --recursive",
+    "posttest": "npm run clean"
+  },
+  "dependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-eslint": "^7.2.3",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-flow": "^6.23.0",
+    "chai": "^4.0.0",
+    "eslint": "^3.19.0",
+    "eslint-plugin-flowtype": "^2.34.0",
+    "flow-bin": "^0.47.0",
+    "mocha": "^3.4.2",
+    "node": "^11.0.0"
+  }
+}
