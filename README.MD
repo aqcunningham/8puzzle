@@ -13,18 +13,17 @@ or even storing them in an array.
 
 From the initial state of a random integers from 1 to 8 expect:
 
-1 2 3
-4 5 6
-7 8
+0 1 2
+3 4 5
+6 7 8
 
 ---
 
-This project is implemented on node.js.
+This project is implemented on JS with some HTML for the interface.
+In order to run it, open index.html in the browser.
 
-To run it, need to install in the terminal:
+Instructions:
 
-$ npm i node
+    In the 3x3 given grid a user can try playing it to solve. On each step, the cost of the step is accumulated, as well as the steps in the Solution, until it's solved.
 
-To run the program, inside of src folder run:
-
-$ node index.js
+    Another way, to click Solve to receive the solution right away (from the current postition).

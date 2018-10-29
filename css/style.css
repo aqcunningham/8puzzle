@@ -1,0 +1,7 @@
+body {
+    text-align: center;
+}
+
+#log, #log2, #sol {
+	word-wrap: break-word;
+}
