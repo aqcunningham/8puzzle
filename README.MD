@@ -27,4 +27,4 @@ $ npm i node
 
 To run the program, inside of src folder run:
 
-$node index.js
+$ node index.js
