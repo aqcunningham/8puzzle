@@ -1,7 +1,7 @@
 CISC 7412
 HW 1
 
-Author: Assel Omarova
+Student: Assel Omarova
 
 You are to write a program which solves the 8 puzzle using A\* search.
 The program should input a puzzle and output the solution sequence.
