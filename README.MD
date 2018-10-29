@@ -20,8 +20,11 @@ From the initial state of a random integers from 1 to 8 expect:
 ---
 
 This project is implemented on node.js.
+
 To run it, need to install in the terminal:
+
 $ npm i node
 
 To run the program, inside of src folder run:
+
 $node index.js
