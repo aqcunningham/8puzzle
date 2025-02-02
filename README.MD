@@ -2,7 +2,7 @@ CISC 7412
 
 HW 1
 
-Student: Assel Omarova
+Student: Aselle Cunningham
 
 <!-- You are to write a program which solves the 8 puzzle using A\* search.
 The program should input a puzzle and output the solution sequence.
